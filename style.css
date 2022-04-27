@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    width: 50%;
+    
+}
+.logo2{
+    width: 100px;
+    height: 100px;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right; /*alinhamento de texto*/
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold; /*aplica negrito*/
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -650px;
+    right: -600px;
+    width: 1100px;
+    height: 1200px;
+    border-radius: 50%;
+    background-color: green;
+}
+.coffee{
+    width: 300px;
+    height: 500px;
+    width: auto;
+    
+}
+
+.social-media{
+    position: absolute;
+    right: 520px;
+    top: 40px;
+   
+}
+
+.social-media img{
+    width: -100px;
+    height: -100px;
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 50px;
+}
+.texto-sobre h1{
+    font-size: 40px;
+}
+
+.texto-sobre p{
+    margin: 20px 0;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+.texto-sobre button{
+    border: 0;
+    background-color: green;
+    color:white;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+
+}
